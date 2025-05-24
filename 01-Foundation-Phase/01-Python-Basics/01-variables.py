@@ -32,8 +32,6 @@ print(c)
 
 # Unpack a Collection
 user_info = [user_name, user_age, user_height]
-print(user_info)
-
 x, y, z = user_info
 print(x)
 print(y)
@@ -46,6 +44,6 @@ userinfo()
 
 def userinfo():
     global name
-    name = input('What is your name? ')
+    name = "Md.Rayhan Bapari"
     print('My Name is ' + name)
 userinfo()
